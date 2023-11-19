@@ -1,4 +1,4 @@
-// File: /Users/reubenmurphy/Desktop/adam-doyle-fitness/app/(default)/page.tsx
+// File: /Users/reubenmurphy/Documents/GitHub/adam-new/app/(default)/page.tsx
 import * as entry from '../../../../app/(default)/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
