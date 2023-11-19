@@ -52,7 +52,7 @@ export default function Features() {
               data-aos='fade-right'
             >
               <div className='md:pr-4 lg:pr-12 xl:pr-16 mb-8'>
-                <h3 className='h3 mb-3'>Services</h3>
+                <h3 className='h3 mb-3 text-center'>Services</h3>
                 <p className='text-xl text-gray-600'>
                   Our mission is to empower individuals to live healthier,
                   happier lives. We believe that fitness is a journey, and we're
@@ -197,6 +197,7 @@ export default function Features() {
                         height='44'
                         alt='Element'
                         style={{ top: "30%" }}
+                        priority
                       />
                     </div>
                   </Transition>
@@ -222,6 +223,7 @@ export default function Features() {
                         height='44'
                         alt='Element'
                         style={{ top: "30%" }}
+                        priority
                       />
                     </div>
                   </Transition>
@@ -247,6 +249,7 @@ export default function Features() {
                         height='44'
                         alt='Element'
                         style={{ top: "30%" }}
+                        priority
                       />
                     </div>
                   </Transition>

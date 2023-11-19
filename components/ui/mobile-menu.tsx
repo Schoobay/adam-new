@@ -84,7 +84,7 @@ export default function MobileMenu() {
             </li>
             <li>
               <Link
-                href='/Contact'
+                href='/contact'
                 className='btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 w-full my-2'
                 onClick={() => setMobileNavOpen(false)}
               >

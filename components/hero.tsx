@@ -55,7 +55,7 @@ export default function Hero() {
             <img
               src='/images/hero-image.jpg'
               alt='alt'
-              className='w-full h-full object-cover object-center'
+              className='w-full h-full object-contain object-center'
             />
             <div className='absolute inset-0 bg-gradient-to-br from-transparent to-black'></div>
           </div>
