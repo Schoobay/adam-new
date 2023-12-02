@@ -1,5 +1,6 @@
 import Image from "next/image";
-import TestimonialImage from "@/public/images/testimonial.jpg";
+import TestimonialImage1 from "@/public/images/testimonial-img-1.jpg";
+import TestimonialImage2 from "@/public/images/testimonial-img-2.jpg";
 
 export default function Testimonials() {
   return (
@@ -53,25 +54,58 @@ export default function Testimonials() {
 
           {/* Testimonials */}
           <div className='max-w-3xl mx-auto mt-20' data-aos='zoom-y-out'>
+            <div className='relative flex items-start border-2 border-gray-200 rounded bg-white mb-10'>
+              {/* Testimonial */}
+              <div className='text-center px-4 py-8 pt-20 mx-4 md:mx-0'>
+                <div className='absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2'>
+                  <Image
+                    className='relative rounded-full w-[90px] h-[90px] object-cover'
+                    src={TestimonialImage1}
+                    width={90}
+                    height={90}
+                    alt='Testimonial 01'
+                  />
+                </div>
+                <blockquote className='text-lg font-medium mb-4'>
+                  “ Working with Adam changed my life, I came to Adam insecure,
+                  overweight, unfit and absolutely zero confidence. He helped me
+                  with my anxiety about going to the gym and turned it into my
+                  second home. I'm stronger, I'm fitter, im confident and most
+                  importantly I'm Healthy. He doesn't just help change your
+                  physical appearance, He helps you to become mentally strong
+                  and helps you fall in love with the gym, and works hard to
+                  keep you motivated. "Changed my life" may sound over the top,
+                  but I'm Healthier, I'm physically Stronger and Mentally
+                  Stronger, and that's what makes it life changing. I couldn't
+                  recommend him Highly enough. I can't wait to see what the
+                  future brings.“
+                </blockquote>
+                <cite className='block font-bold text-lg not-italic mb-1'>
+                  Ryan Coleman
+                </cite>
+              </div>
+            </div>
             <div className='relative flex items-start border-2 border-gray-200 rounded bg-white'>
               {/* Testimonial */}
               <div className='text-center px-12 py-8 pt-20 mx-4 md:mx-0'>
                 <div className='absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2'>
                   <Image
-                    className='relative rounded-full'
-                    src={TestimonialImage}
-                    width={96}
-                    height={96}
+                    className='relative rounded-full w-[90px] h-[90px] object-cover'
+                    src={TestimonialImage2}
+                    width={90}
+                    height={90}
                     alt='Testimonial 01'
                   />
                 </div>
                 <blockquote className='text-xl font-medium mb-4'>
-                  “ Working with Adam has been a game-changer for me. I'm
-                  fitter, stronger, and more motivated than ever before. Highly
-                  recommended!“
+                  “ Choosing Adam as my personal trainer has been one of my best
+                  decisions to date. I've lost weight, gained muscle and
+                  developed healthier habits. I couldn't have done this without
+                  Adam's support and guidance. Thanks for pushing me to be the
+                  best version of myself“
                 </blockquote>
                 <cite className='block font-bold text-lg not-italic mb-1'>
-                  Sarah M.
+                  Reuben Murphy
                 </cite>
               </div>
             </div>

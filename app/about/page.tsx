@@ -6,19 +6,18 @@ const about = () => {
     <section className='bg-white pt-16'>
       <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16'>
         <h1 className='mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl '>
-          Who am I?
+          Meet your trainer!
         </h1>
-        <p className='mb-8 text-lg font-normal text-center text-gray-500 lg:text-xl sm:px-16 lg:px-48 '>
-          Hi! I'm Adam, a dedicated fitness professional and personal trainer
-          located in Wexford. With a comprehensive background in exercise
-          science and a passion for promoting overall well-being, my mission is
-          to guide individuals toward achieving their fitness goals. Through
-          structured and tailored workout programs, I aim to inspire a
-          commitment to a healthy lifestyle. <br />
+        <p className='pt-3 mb-8 text-lg font-normal text-center text-gray-500 lg:text-xl sm:px-16 lg:px-48 '>
+          I'm Adam. I'm a fully qualified personal trainer, with years of
+          experience and a great passion for fitness. I'm here to guide you in
+          the right direction and help you achieve your goals. Weather it be,
+          build muscle, build strength, improve fitness, help you improve your
+          nutrition, improve sports performance, or help your with your day to
+          day life and remove those unhealthy bad habits weighing you down.{" "}
           <br />
-          Beyond the training sessions, I am committed to continuous education
-          in the ever-evolving field of fitness. Join me on this journey of
-          transformative fitness, where we prioritize{" "}
+          <br />
+          Join me on this journey of transformative fitness, where we prioritize{" "}
           <b>health, discipline, and success.</b>
         </p>
         <div className='flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0'>
@@ -36,9 +35,9 @@ const about = () => {
             >
               <path
                 stroke='currentColor'
-                stroke-linecap='round'
-                stroke-linejoin='round'
-                stroke-width='2'
+                strokeLinecap='round'
+                strokeLinejoin='round'
+                strokeWidth='2'
                 d='M1 5h12m0 0L9 1m4 4L9 9'
               />
             </svg>
