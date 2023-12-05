@@ -59,7 +59,7 @@ export default function Testimonials() {
               <div className='text-center px-4 py-8 pt-20 mx-4 md:mx-0'>
                 <div className='absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2'>
                   <Image
-                    className='relative rounded-full w-[90px] h-[90px] object-cover'
+                    className='relative rounded-full'
                     src={TestimonialImage1}
                     width={90}
                     height={90}

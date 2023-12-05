@@ -1,5 +1,7 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+import ProfilePic from "@/public/images/AD_Profile_Pic.jpg";
 
 const about = () => {
   return (
@@ -8,7 +10,17 @@ const about = () => {
         <h1 className='mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl '>
           Meet your trainer!
         </h1>
-        <p className='pt-3 mb-8 text-lg font-normal text-center text-gray-500 lg:text-xl sm:px-16 lg:px-48 '>
+        <div className='pt-3'>
+          <Image
+            className='mx-auto h-80 object-cover rounded-3xl'
+            src={ProfilePic}
+            width={500}
+            height={500}
+            alt='Element'
+            priority
+          />
+        </div>
+        <p className='pt-5 mb-8 text-lg font-normal text-center text-gray-500 lg:text-xl sm:px-16 lg:px-48 '>
           I'm Adam. I'm a fully qualified personal trainer, with years of
           experience and a great passion for fitness. I'm here to guide you in
           the right direction and help you achieve your goals. Weather it be,

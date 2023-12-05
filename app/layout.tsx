@@ -12,7 +12,7 @@ const inter = Inter({
 
 export const metadata = {
   title: "Adam Doyle Coaching",
-  description: "Fitness coaching based in Co. Wexford Ireland",
+  description: "Fitness coaching based in Gorey, Co. Wexford Ireland",
 };
 
 export default function RootLayout({
