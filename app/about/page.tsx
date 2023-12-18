@@ -21,13 +21,12 @@ const about = () => {
           />
         </div>
         <p className='pt-5 mb-8 text-lg font-normal text-center text-gray-500 lg:text-xl sm:px-16 lg:px-48 '>
-          I'm Adam. I'm a fully qualified personal trainer, with years of
-          experience and a great passion for fitness. I'm here to guide you in
-          the right direction and help you achieve your goals. Weather it be,
-          build muscle, build strength, improve fitness, help you improve your
-          nutrition, improve sports performance, or help your with your day to
-          day life and remove those unhealthy bad habits weighing you down.{" "}
-          <br />
+          I’m Adam, a fully qualified personal trainer with years of experience.
+          I have a great passion for fitness and also for coaching. My goal is
+          to guide you on your fitness journey and help you achieve your goals
+          whether it be, the dream body you’ve always wanted, get you started on
+          your fitness journey, improve sports performance, or begin living a
+          healthy lifestyle. <br />
           <br />
           Join me on this journey of transformative fitness, where we prioritize{" "}
           <b>health, discipline, and success.</b>

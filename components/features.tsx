@@ -54,9 +54,15 @@ export default function Features() {
               <div className='md:pr-4 lg:pr-12 xl:pr-16 mb-8'>
                 <h3 className='h3 mb-3 text-center'>Services</h3>
                 <p className='text-xl text-gray-600'>
-                  Our mission is to empower individuals to live healthier,
-                  happier lives. We believe that fitness is a journey, and we're
-                  here to support you every step of the way.
+                  My mission is to help you to live a{" "}
+                  <b>happier, healthier lifestyle</b>. <br />
+                  <br />
+                  Do you want to get started on your fitness journey but just
+                  don’t know where to start? Have you tried to improve your
+                  lifestyle in the past and it didn’t work out? Are you training
+                  and not seeing progress? Making the decision to take your
+                  first step, or next step in your fitness journey is the best
+                  decision anybody can make!
                 </p>
               </div>
               {/* Tabs buttons */}
@@ -78,10 +84,11 @@ export default function Features() {
                       Personalised Training Plans
                     </div>
                     <div className='text-gray-600'>
-                      Our one-on-one training sessions are designed to target
-                      your specific fitness goals. Whether you're looking to
-                      build strength, improve flexibility, or boost endurance,
-                      we've got a plan for you.
+                      A completely unique training plan tailored to your goals,
+                      and your lifestyle. Whether you’re looking to build
+                      muscle, build strength, improve your overall fitness,
+                      boost endurance, or improve your performance in your
+                      everyday life.
                     </div>
                   </div>
                   <div className='flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3'>
@@ -111,9 +118,11 @@ export default function Features() {
                       Nutrition Guidance
                     </div>
                     <div className='text-gray-600'>
-                      Achieving your fitness goals goes hand in hand with proper
-                      nutrition. Our nutrition experts will help you develop a
-                      balanced and sustainable eating plan.
+                      A completely unique nutrition plan also tailored to your
+                      goals, and your lifestyle. Nutrition is the most important
+                      aspect of fitness and a healthy lifestyle. Nutrition is
+                      the key to, looking well, feeling good, a strong healthy
+                      body, and so much more.
                     </div>
                   </div>
                   <div className='flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3'>
@@ -146,8 +155,8 @@ export default function Features() {
                       Sports Performance
                     </div>
                     <div className='text-gray-600'>
-                      For players who are wanting to excel to the top of their
-                      game, aiming to improve performance
+                      For athletes looking to excel to the top of their game,
+                      aiming to improve performance in any sport.
                     </div>
                   </div>
                   <div className='flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3'>

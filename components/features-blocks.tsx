@@ -11,12 +11,19 @@ export default function FeaturesBlocks() {
       <div className='relative max-w-6xl mx-auto px-4 sm:px-6'>
         <div className='py-12 md:py-20'>
           {/* Section header */}
-          <div className='max-w-3xl mx-auto text-center pb-12 md:pb-20'>
+          <div className='max-w-3xl mt-6 mx-auto text-center pb-12 md:pb-20'>
             <h2 className='h2 mb-4'>Your next steps...</h2>
             <p className='text-xl text-gray-600'>
               We understand that everyone is different. We all have our own
               individual goals and through this process we determine what they
               are and how to achieve them efficiently.
+              <br />
+              <br />
+              I'll be on hand to provide <b>24/7 guidance and support</b>,
+              helping along the way you whenever you need it and answering any
+              questions you may have. Weekly check-ins are also available where
+              we have a look at your progress over the week, monitoring your
+              progress, and make changes when necessary.
             </p>
           </div>
 
