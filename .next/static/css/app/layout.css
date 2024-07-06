@@ -1384,9 +1384,6 @@ html {
 .mt-6 {
   margin-top: 1.5rem;
 }
-.mt-5 {
-  margin-top: 1.25rem;
-}
 .block {
   display: block;
 }
@@ -2344,12 +2341,28 @@ html {
     height: fit-content;
   }
 
+  .md\:h-24 {
+    height: 6rem;
+  }
+
+  .md\:h-80 {
+    height: 20rem;
+  }
+
   .md\:w-auto {
     width: auto;
   }
 
   .md\:w-full {
     width: 100%;
+  }
+
+  .md\:w-20 {
+    width: 5rem;
+  }
+
+  .md\:w-32 {
+    width: 8rem;
   }
 
   .md\:max-w-2xl {
